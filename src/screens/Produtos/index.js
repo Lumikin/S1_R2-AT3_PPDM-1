@@ -17,12 +17,13 @@ export default function Produtos() {
         <View style={styles.container}>
           <StatusBar style="auto" />
 
+          {/* Produto: Maçã */}
+          
           <Image
             source={require("../../../assets/Produtos/maca.png")}
             style={styles.image}
           />
-          <Text style={styles.titulo}> Maça </Text>
-
+          <Text style={styles.titulo}>Maçã</Text>
           <Text style={styles.descricao}>3,00 R$</Text>
           <Text style={styles.Pix}>1,50 R$ no Pix</Text>
           <TextInput
@@ -35,14 +36,15 @@ export default function Produtos() {
             onPress={() => alert("Produto adicionado ao carrinho")}
           />
 
-          <View style={styles.separador}> </View>
+          <View style={styles.separador} />
 
+          {/* Produto: Alface */}
+          
           <Image
             source={require("../../../assets/Produtos/alface.png")}
             style={styles.image}
           />
-          <Text style={styles.titulo}> Repolho </Text>
-
+          <Text style={styles.titulo}>Alface</Text>
           <Text style={styles.descricao}>7,00 R$</Text>
           <Text style={styles.Pix}>4,00 R$ no Pix</Text>
           <TextInput
@@ -55,15 +57,16 @@ export default function Produtos() {
             onPress={() => alert("Produto adicionado ao carrinho")}
           />
 
-          <View style={styles.separador}> </View>
+          <View style={styles.separador} />
 
+          {/* Produto: Cenoura */}
+          
           <Image
-            source={require("../../../assets/Produtos/Brocolis.png")}
+            source={require("../../../assets/Produtos/Cenoura.png")}
             style={styles.image}
           />
-          <Text style={styles.titulo}> Brócolis </Text>
-
-          <Text style={styles.descricao}>6,00 R$</Text>
+          <Text style={styles.titulo}>Cenoura</Text>
+          <Text style={styles.descricao}>5,00 R$</Text>
           <Text style={styles.Pix}>2,50 R$ no Pix</Text>
           <TextInput
             style={styles.Quantidade}
@@ -75,16 +78,17 @@ export default function Produtos() {
             onPress={() => alert("Produto adicionado ao carrinho")}
           />
 
-          <View style={styles.separador}> </View>
+          <View style={styles.separador} />
+
+          {/* Produto: Repolho */}
 
           <Image
             source={require("../../../assets/Produtos/Repolho.png")}
             style={styles.image}
           />
-          <Text style={styles.titulo}> Repolho </Text>
-
-          <Text style={styles.descricao}>10,00 R$</Text>
-          <Text style={styles.Pix}>5,00 R$ no Pix</Text>
+          <Text style={styles.titulo}>Repolho</Text>
+          <Text style={styles.descricao}>9,00 R$</Text>
+          <Text style={styles.Pix}>4,50 R$ no Pix</Text>
           <TextInput
             style={styles.Quantidade}
             placeholder="Quantidade"
@@ -95,16 +99,17 @@ export default function Produtos() {
             onPress={() => alert("Produto adicionado ao carrinho")}
           />
 
-          <View style={styles.separador}> </View>
+          <View style={styles.separador} />
+
+          {/* Produto: Brócolis */}
 
           <Image
-            source={require("../../../assets/Produtos/Cenoura.png")}
+            source={require("../../../assets/Produtos/Brocolis.png")}
             style={styles.image}
           />
-          <Text style={styles.titulo}> Cenoura </Text>
-
-          <Text style={styles.descricao}>3,00 R$</Text>
-          <Text style={styles.Pix}>1,50 R$ no Pix</Text>
+          <Text style={styles.titulo}>Brócolis</Text>
+          <Text style={styles.descricao}>12,00 R$</Text>
+          <Text style={styles.Pix}>7,00 R$ no Pix</Text>
           <TextInput
             style={styles.Quantidade}
             placeholder="Quantidade"
@@ -115,7 +120,7 @@ export default function Produtos() {
             onPress={() => alert("Produto adicionado ao carrinho")}
           />
 
-          <View style={styles.separador}> </View>
+          <View style={styles.separador} />
         </View>
       </ScrollView>
     </SafeAreaView>
