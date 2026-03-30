@@ -45,12 +45,13 @@ const styles = StyleSheet.create({
     gap: 5,
   },
   botao: {
-    marginTop: 9,
-    backgroundColor: "white",
+    backgroundColor: "#4CAF50", 
     width: "90%",
-    height: "5%",
-    borderRadius: 90,
+    height: 50,              
+    borderRadius: 25,         
     alignItems: "center",
+    justifyContent: "center", 
+    marginTop: 15,
   },
   image: {
     width: "40%",

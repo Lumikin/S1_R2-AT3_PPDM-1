@@ -28,7 +28,7 @@ export default function App() {
           name="Contato"
           component={Contato}
           options={{
-            title: "Produtos",
+            title: "Contatos",
           }}
         />
       </Stack.Navigator>
